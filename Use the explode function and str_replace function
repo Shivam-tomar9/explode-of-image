@@ -1,0 +1,12 @@
+  @php
+                      $images = json_decode($product->image);
+                      @endphp
+							 	<?php
+								$a =	explode(",",$product->image);
+								
+								$b = str_replace('[', '', $a[0]);
+
+								$c=str_replace('"', '', $b);
+
+
+									?>
